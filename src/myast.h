@@ -1515,7 +1515,7 @@ class UnaryExpToFuncAST : public BaseAST{
       cat = "%" + to_string(koopa_reg++);
       koopa_str = koopa_str + cat + " = ";
     }
-    koopa_str = koopa_str + "call @" + ident + "(" + para_str + ")\n";
+    koopa_str = koopa_str + "cal @" + ident + "(" + para_str + ")\n";
     return cat;
   }
 };
