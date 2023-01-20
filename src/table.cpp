@@ -44,7 +44,7 @@ int Align(V boundary, int num_sum, int baseline){
                 return 1;
             break;
         }
-    return len - j;
+    return len - 1 - j;
 }
 
 void CompleteInit(Nest init, V boundary, Ainf* tmp){
