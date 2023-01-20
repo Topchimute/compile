@@ -813,7 +813,7 @@ ris_ret Visit(const koopa_raw_call_t &c){
   }
   string func_name = c.callee->name;
   func_name.erase(0, 1);
-  riscv_str = riscv_str + "call " + func_name + "\n";
+  riscv_str = riscv_str + "cal " + func_name + "\n";
   
   call_integer = false;
   // 能接住
